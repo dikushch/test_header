@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST_HEADER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo"><img src="img/logo.svg" alt="logo"></div>
+            <p class="header__logo-text">магазин инструмента</p>
+            <div class="header__top-wrap">
+                <nav class="header__top-menu top-menu">
+                    <div class="top-menu__brg"><span></span></div>
+                    <ul class="top-menu__list">
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Каталог инструментов  </a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Все для сада</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Ручной интрумент</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Электрика</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Доставка</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Оплата</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">О нас</a></li>
+                    </ul>
+                </nav>
+                <div class="header__login login">
+                    <button class="login__btn">Вход</button>
+                    <div class="login__dec"></div>
+                    <button class="login__btn">Регистрация</button>
+                </div>
+            </div>
+            <div class="header__mid-wrap">
+                <div class="header__banner"></div>
+                <div class="header__cart cart">
+                    <ul class="cart__list">
+                        <li class="cart__item"><img src="img/cart.svg" alt="" class="cart__dec"><a href="#" class="cart__link">3 шт. / 17 250 р.</a></li>
+                        <li class="cart__item"><img src="img/star.svg" alt="" class="cart__dec"><a href="#" class="cart__link">Избранное (7)</a></li>
+                        <li class="cart__item"><img src="img/balance.svg" alt="" class="cart__dec"><a href="#" class="cart__link">К сравнению (5)</a></li>
+                    </ul>
+                    <div class="cart__wrap-goods goods">
+                        <div class="goods__item"><img src="img/item1.png" alt="товар"></div>
+                        <div class="goods__item"><img src="img/item2.png" alt="товар"></div>
+                        <div class="goods__item"><img src="img/item3.png" alt="товар"></div>
+                    </div>
+                </div>
+                <div class="header__contacts contacts">
+                    <div class="contacts__time time">
+                        <p class="time__text">Время работы:</p>
+                        <p class="time__value">10:00 — 19:00</p>
+                    </div>
+                    <a href="tel:84957212525" class="contacts__phone">8 495 721-25-25</a>
+                    <div class="contacts__region region">
+                        <p class="region__name">Москва</p>
+                        <button class="region__btn">сменить</button>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__main-menu main-menu">
+                <button class="main-menu__search"><img src="img/search.svg" alt=""></button>
+                <ul class="main-menu__list">
+                    <li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--active">Перфораторы</a></li>
+                    <li class="main-menu__item"><a href="#" class="main-menu__link">Дрели</a></li>
+                    <li class="main-menu__item"><a href="#" class="main-menu__link">Шлифмашины</a></li>
+                    <li class="main-menu__item"><a href="#" class="main-menu__link">Пистолеты</a></li>
+                    <li class="main-menu__item"><a href="#" class="main-menu__link">Электропилы</a></li>
+                    <li class="main-menu__item"><a href="#" class="main-menu__link">Наборы инструментов</a></li>
+                    <li class="main-menu__item"><a href="#" class="main-menu__link">Акксесуары</a></li>
+                </ul>
+                <a href="#" class="main-menu__sale">Распродажа</a>
+            </nav>
+        </div>
+    </header>
+    
+    <script src="script.js"></script>
+</body>
+</html>
